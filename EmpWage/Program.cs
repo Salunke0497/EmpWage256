@@ -10,13 +10,22 @@ namespace EmpWage
     {
         static void Main(string[] args)
         {
+            //UC1 for check employee present or not
             //EmpCheck obj= new EmpCheck();
             //obj.AttendanceCheck();
             //Console.ReadLine();
 
-            DailyWage dailyWage = new DailyWage();
-            dailyWage.DailyWageCheck();
+            //UC2 check Daily emp wage
+            //DailyWage dailyWage = new DailyWage();
+            //dailyWage.DailyWageCheck();
+            //Console.ReadLine();
+
+
+            //check part time employee check
+            PartTimeEmpWage obj =new PartTimeEmpWage();
+            obj.PartTimeEmpCheck();
             Console.ReadLine();
+
         }
     }
 }
