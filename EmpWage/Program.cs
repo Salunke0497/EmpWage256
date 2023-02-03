@@ -10,8 +10,12 @@ namespace EmpWage
     {
         static void Main(string[] args)
         {
-            EmpCheck obj= new EmpCheck();
-            obj.AttendanceCheck();
+            //EmpCheck obj= new EmpCheck();
+            //obj.AttendanceCheck();
+            //Console.ReadLine();
+
+            DailyWage dailyWage = new DailyWage();
+            dailyWage.DailyWageCheck();
             Console.ReadLine();
         }
     }
