@@ -14,9 +14,19 @@ namespace EmpWage
             //obj.AttendanceCheck();
             //Console.ReadLine();
 
-            DailyWage dailyWage = new DailyWage();
-            dailyWage.DailyWageCheck();
+            //DailyWage dailyWage = new DailyWage();
+            //dailyWage.DailyWageCheck();
+            //Console.ReadLine();
+
+            //PartTime partTime = new PartTime();
+            //partTime.PartTimeEmpWage();
+            //Console.ReadLine();
+
+            SwitchCase switchcase = new SwitchCase();
+            switchcase.EmpWageSwitchCase();
             Console.ReadLine();
+
+
         }
     }
 }
