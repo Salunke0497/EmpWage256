@@ -22,8 +22,12 @@ namespace EmpWage
             //partTime.PartTimeEmpWage();
             //Console.ReadLine();
 
-            SwitchCase switchcase = new SwitchCase();
-            switchcase.EmpWageSwitchCase();
+            //SwitchCase switchcase = new SwitchCase();
+            //switchcase.EmpWageSwitchCase();
+            //Console.ReadLine();
+
+            WorkingDays workingDays = new WorkingDays();
+            workingDays.EmployeeWagecheck();
             Console.ReadLine();
 
 
