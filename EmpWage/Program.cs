@@ -26,11 +26,16 @@ namespace EmpWage
             //switchcase.EmpWageSwitchCase();
             //Console.ReadLine();
 
-            WorkingDays workingDays = new WorkingDays();
-            workingDays.EmployeeWagecheck();
+            //WorkingDays workingDays = new WorkingDays();
+            //workingDays.EmployeeWagecheck();
+            //Console.ReadLine();
+
+            //UC6WorkingDays workingDays = new UC6WorkingDays();
+            //workingDays.EmpWage100Days();
+
+            UC7EmpWage EmpWage = new UC7EmpWage();
+            EmpWage.ComputeEmpWage();
             Console.ReadLine();
-
-
         }
     }
 }
